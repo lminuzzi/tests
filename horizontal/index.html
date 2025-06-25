@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista Horizontal com Rolagem</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="horizontal-container">
+    <button class="arrow left">◄</button>
+    <ul class="item-list">
+      <li data-direction="left">Item 1</li>
+      <li data-direction="right">Item 2</li>
+      <li data-direction="left">Item 3</li>
+      <li data-direction="right">Item 4</li>
+      <li data-direction="left">Item 5</li>
+      <li data-direction="right">Item 6</li>
+      <li data-direction="left">Item 7</li>
+      <li data-direction="right">Item 8</li>
+    </ul>
+    <button class="arrow right">►</button>
+  </div>
+  <div class="content-area">
+    <p style="padding: 20px;">Conteúdo com rolagem horizontal simulada.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
