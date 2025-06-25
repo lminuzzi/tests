@@ -9,14 +9,14 @@ $(document).ready(function () {
     $items.slice(currentIndex, currentIndex + maxVisible).show();
   }
 
-  $('.arrow.up').click(function () {
+  $('.arrow.left').click(function () {
     if (currentIndex > 0) {
       currentIndex--;
       updateVisibleItems();
     }
   });
 
-  $('.arrow.down').click(function () {
+  $('.arrow.right').click(function () {
     if (currentIndex + maxVisible < $items.length) {
       currentIndex++;
       updateVisibleItems();
